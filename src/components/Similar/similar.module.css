@@ -1,0 +1,11 @@
+.similar{
+    padding: 30px;
+}
+.heading{
+    margin: 4vh 0;
+}
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap:25px;
+}

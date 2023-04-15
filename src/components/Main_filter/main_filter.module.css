@@ -1,0 +1,32 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.symbol{
+    position: absolute;
+    margin-top: 2vh;
+    margin-left: 0.2vw;
+}
+.filter{
+    display: flex;
+    justify-content: space-between;
+    margin:1vh 0;
+    flex-direction: column;
+}
+.min_cont,.max_cont{
+    padding-left: 10px;
+}
+.heading,.min,.max{
+    margin: 1vh 0;
+}
+.min,.max{
+    padding: 6px;
+    padding-left: 10px;
+    width: 45%;
+}
+.price_btn{
+    padding: 6px;
+    border-radius: 6px;
+    border: 1px solid lightgray;
+    cursor: pointer;
+}

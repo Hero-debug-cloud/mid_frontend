@@ -1,0 +1,33 @@
+.register_login{
+    height: 95vh;
+    width: 98vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.choose_cont{
+    /* border: 1px solid black; */
+    display: flex;
+    margin-bottom: 2vh;
+    padding: 8px;
+}
+.register{
+    border-right: 1px solid black;
+}
+.register,.login{
+    width: 50%;
+    text-align: center;
+    cursor: pointer;
+    padding: 5px;
+}
+.inner{
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 460px;
+    height: 480px;
+    padding: 10px;
+}
+.heading{
+    text-align: center;
+    margin-bottom: 2vh;
+}

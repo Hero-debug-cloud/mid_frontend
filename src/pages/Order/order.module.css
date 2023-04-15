@@ -1,0 +1,41 @@
+
+.cont{
+    padding: 30px;
+}
+.heading{
+    margin-bottom: 5vh;
+}
+.heading2{
+    margin-bottom: 4vh;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    height: 45vh;
+}
+.con1{
+    width: 50%;
+}
+.summary{
+    border: 1px solid black;
+    width: 25%;
+    margin-right: 8vw;
+    border-radius: 6px;
+    padding: 30px;
+}
+.add_cont,.contact_cont,.confirm{
+    margin-bottom: 4vh;
+}
+.add_heading,.contact_heading{
+    margin-bottom: 1vh;
+}
+
+.confirm{
+    padding: 20px;
+    width: 100%;
+    cursor: pointer;
+    background:#19A2D8;
+    color: white;
+    border: 1px solid #19A2D8;
+    border-radius: 6px;
+}

@@ -1,0 +1,56 @@
+.container{
+    border: 1px solid black;
+    border-radius: 6px;
+    width: 70%;
+    height: 22vh;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 2vh 0;
+}
+.img_cont{
+    height: 93%;
+    width: 18%;
+    background-color: lightgray;
+}
+.img{
+    height: 100%;
+    width: 100%;
+}
+.info_cont{
+    width: 40%;
+    height: 93%;
+}
+.price{
+    width: 10%;
+    height: 93%;
+}
+.btn{
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+}
+.remove,.buy{
+    padding: 10px;
+    cursor: pointer;
+    background: #19A2D8;
+    color: white;
+    border: 1px solid #19A2D8;
+    border-radius: 5px;
+}
+.buy{
+    margin-top: 3vh;
+}
+.dis{
+    margin-top: 2vh;
+}
+.price_head{
+    margin-bottom: 3vh;
+}
+.symbol{
+    margin-left: 1vw;
+}
+.symbol,.real{
+    font-size: 3vh;
+}

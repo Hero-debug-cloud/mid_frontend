@@ -1,0 +1,40 @@
+.container{
+    border: 1px solid black;
+    border-radius: 6px;
+    width: 45vw;
+    height: 35vh;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 2vh 0;
+}
+.img_cont{
+    height: 93%;
+    width: 30%;
+    background-color: lightgray;
+}
+.img{
+    height: 100%;
+    width: 100%;
+}
+.info_cont{
+    width: 30%;
+    height: 93%;
+}
+.price{
+    width: 10%;
+    height: 93%;
+}
+.dis{
+    margin-top: 2vh;
+}
+.price_head{
+    margin-bottom: 3vh;
+}
+.symbol{
+    margin-left: 1vw;
+}
+.symbol,.real{
+    font-size: 3vh;
+}

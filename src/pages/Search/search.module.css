@@ -1,0 +1,43 @@
+.search{
+    display: flex;
+}
+.left,.right{
+    padding: 20px;
+}
+.left{
+    width: 15%;
+}
+.group{
+    display: flex;
+    flex-direction: column;
+}
+.symbol{
+    position: absolute;
+    margin-top: 2vh;
+    margin-left: 0.2vw;
+}
+.min_cont,.max_cont{
+    padding-left: 10px;
+}
+.heading,.min,.max{
+    margin: 1vh 0;
+}
+.min,.max{
+    padding: 6px;
+    padding-left: 10px;
+    width: 45%;
+}
+.price_btn{
+    padding: 6px;
+    border-radius: 6px;
+    border: 1px solid lightgray;
+    cursor: pointer;
+}
+.right{
+    width: 85%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap:30px;
+    padding-left: 60px;
+    border-left: 1px solid black;
+}

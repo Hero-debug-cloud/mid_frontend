@@ -1,0 +1,31 @@
+.posting{
+    padding-left: 28vw;
+    padding-top: 50px;
+    margin-bottom: 5vh;
+}
+.container{
+    margin: 4vh 0;
+}
+.head{
+    margin-bottom: 1vh;
+}
+.input,.dropdown{
+    padding: 10px;
+    width: 24vw;
+    margin: 1vh 0 2vh 0;
+}
+.dropdown{
+    width: 26vw;
+}
+.area{
+    margin: 1vh 0 2vh 0;
+}
+.post{
+    padding: 15px;
+    width: 26vw;
+    cursor: pointer;
+    color: white;
+    background: #19A2D8;
+    border:1px solid #19A2D8;
+    border-radius: 6px;
+}

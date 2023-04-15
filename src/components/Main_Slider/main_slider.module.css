@@ -1,0 +1,36 @@
+.main{
+  height: 50vh;
+  background-color:lightgray;
+  display: flex;
+}
+.left,.right{
+  width: 50%;
+}
+.left{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main_heading{
+  width: 25vw;
+}
+.buy{
+  background-color: #EE3423;
+  color: white;
+  border: 1px solid #EE3423;
+  padding: 10px;
+  width: 10vw;
+  margin: 5vh 15vw 0 0;
+  cursor: pointer;
+  border-radius: 2px;
+}
+.right{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main_img{
+  margin-top: 10vh;
+  height: 55vh;
+}

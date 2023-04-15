@@ -1,0 +1,95 @@
+.card{
+    padding: 30px;
+}
+.inner{
+    display: flex;
+}
+.left{
+    width: 45%;
+}
+.img_cont{
+    height: 50vh;
+    width: 25vw;
+    background-color: lightgray;
+    border-radius: 5px;
+}
+.img{
+    height: 100%;
+    width: 100%;
+}
+.right{
+    width: 55%;
+}
+.school_date{
+    display: flex;
+}
+.heading,.school_date,.price,.main,.dis_cont,.dis{
+    margin-bottom: 1.5vh;
+}
+.price{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 4.5vh;
+}
+.real{
+    margin-right: 4vw;
+}
+.fav_icon{
+    cursor: pointer;
+}
+.main{
+  margin: 4vh 0;
+}
+.price{
+    margin-top: 4vh;
+}
+.buy,.cart{
+    padding: 12px;
+    background: #19A2D8;
+    border:1px solid #19A2D8;
+    border-radius: 6px;
+    color:white;
+    cursor: pointer;
+}
+.cart{
+    margin-left: 2vw;
+}
+.dis_heading{
+    margin-bottom: 2vh;
+}
+.dis_group{
+    display: flex;
+    width: 35%;
+    margin: 1vh 0;
+}
+.name,.value{
+    width: 50%;
+}
+.name{
+    font-weight: bold;
+}
+
+.dis{
+    margin-top: 4vh;
+    width: 85%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.centre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

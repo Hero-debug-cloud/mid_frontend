@@ -1,0 +1,28 @@
+.container{
+    display: grid;
+    grid-template-columns: auto auto; 
+    gap:100px 80px;
+}
+
+.cont{
+    height: 28vh;
+    width: 25vw;
+    border: 1px solid black;
+    display: flex;
+    padding: 10px;
+    border-radius: 6px;
+    background-color: white;
+}
+.left,.right{
+    width: 50%;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.heading{
+    margin-bottom: 1vh;
+    text-align: center;
+}

@@ -1,0 +1,61 @@
+.bold{
+    font-weight: bolder;
+}
+.top{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    justify-content: space-between;
+}
+.display{
+    border: 1px solid #4339F2;
+    background-color: #4339F2;
+    color: white;
+    padding: 10px;
+    border-radius: 6px;
+}
+.search{
+    cursor: pointer;
+    margin-left: 0.5vw;
+}
+.search_cont{
+    display: flex;
+    align-items: center;
+}
+.inputing{
+    padding: 10px;
+    height: 20%;
+    border-radius: 5px;
+    width: 20vw;
+}
+
+.container{
+    display: flex;
+    margin-top: 5vh;
+    width: 90%;
+    flex-direction: column;
+}
+.user{
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    margin: 1vh 0;
+    background-color: white;
+    border-radius: 6px;
+}
+.product_name,.price,.seller_name,.operation{
+    width: 25%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.operation{
+    display: flex;
+    justify-content: center;
+}
+.edit,.delete{
+    cursor: pointer;
+}
+.delete{
+    margin-left: 2.5vw;
+}

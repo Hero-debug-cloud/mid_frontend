@@ -1,0 +1,28 @@
+.navbar{
+    background-color: #FF3A29;
+    color: white;
+    height: 10vh;
+    /* fixing our navbar */
+    position: fixed;
+    top:0;
+    width: 100vw;
+}
+.inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+.heading{
+    margin-left: 3vw;
+}
+.user{
+    margin-right: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.name{
+    font-size: 3vh;
+    margin-left: 0.5vw;
+}
