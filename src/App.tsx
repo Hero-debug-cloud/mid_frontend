@@ -33,15 +33,6 @@ function App() {
           <Route path="/showing_order" element={<Showing_order />} />
         </Route>
 
-        {/* admin panel */}
-        <Route path="/admin_panel" element={<Admin_panel />}>
-          <Route index element={<Admin_users />} />
-          <Route path="/admin_panel/admin_products" element={<Admin_products />} />
-          <Route path="/admin_panel/admin_api" element={<Admin_api />} />
-          <Route path="/admin_panel/admin_orders" element={<Admin_orders />} />
-          <Route path="/admin_panel/admin_revenue" element={<Admin_revenue />} />
-        </Route>
-
         {/* invalid url entered by the enivroment; */}
         <Route path="*" element={<Home />} />
       </Routes>
